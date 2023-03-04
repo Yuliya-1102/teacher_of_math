@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
+    letter-spacing: 0.06em;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+.gradient{
+	background: linear-gradient(90deg, #b9deed, #efefef);
+}
+.header{
+    padding: 60px 0px;
+}
+.header__parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__title{
+    font-size: 32px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    margin-bottom: 10px;
+}
+.header__logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header__subtitle{
+    font-family: 'Arial';
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    color: black;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    line-height: 2cm;
+}
+.header__img{
+    width: 100px;
+}
+.menu__list{
+    display: flex;
+}
+.menu__list li{
+    color: #333333;
+    font-family: 'Arial';
+    margin-left: 35px;
+}
+.menu__list a{
+    font-size: 30px;
+}
+.menu__list li a:hover{
+    border-bottom: 3px solid #F1CDB3;;
+}
+
+/* ABOUT */
+.about{
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 30px;
+    background-color: rgb(230, 225, 220);
+    padding: 80px 0px 100px;
+}
+.about__parent{
+    display: flex;
+    align-items: center;
+}
+.about__img{
+    flex-basis: 50%;
+    text-align: center;
+    margin-right: 100px;
+}
+.about__descr{
+    flex-basis: 430px;
+}
+.about__parent1{
+    margin-bottom: 200px;
+}
+.about__title{
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    margin-bottom: 25px;
+}
+.about__text{
+    font-family: 'Arial';
+    line-height: 160%;
+}
+.right li{
+    list-style: none;
+}
+.right a{
+    text-decoration: none;
+}
+.section1{
+    padding: 400px 300px;
+}
+.section1 h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section1 h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section1 p{
+    text-align: right;
+}
+.section2 img{
+    padding-left: 25%;
+}
+.about__img2 img{
+    width: 600px;
+}
+@media(max-width:969px){
+    .section2 img{
+        width: 400px;
+    }
+}
